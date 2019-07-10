@@ -4,6 +4,8 @@ build: off
 skip_tags: true
 
 environment:
+  my_variable:
+    secure: jNAGFDTjksYoUkNcdF1ZxIMaTNfZWXBBA1RK2COaxdqPfvmXtmuLbnSyi4bwjs7KhKNMD0Y6XFZdNHDor6GdKg==
   matrix:
     - arch: x86_64
       bits: 64
@@ -25,7 +27,3 @@ install:
   - npm run build
   # - npm run test || travis_terminate 1
   - npm run deploy
-
-environment:
-  my_variable:
-    secure: jNAGFDTjksYoUkNcdF1ZxIMaTNfZWXBBA1RK2COaxdqPfvmXtmuLbnSyi4bwjs7KhKNMD0Y6XFZdNHDor6GdKg==
