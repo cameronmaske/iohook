@@ -27,3 +27,7 @@ install:
   - npm run build
   # - npm run test || travis_terminate 1
   - npm run deploy
+
+artifacts:
+  - path: '**\*.tar.gz'
+    name: release
