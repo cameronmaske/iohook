@@ -26,5 +26,6 @@ install:
   # - npm run test || travis_terminate 1
   - npm run deploy
 
-#on_success:
-# - for %%i in (prebuilds\*) do appveyor PushArtifact %%i
+environment:
+  my_variable:
+    secure: jNAGFDTjksYoUkNcdF1ZxIMaTNfZWXBBA1RK2COaxdqPfvmXtmuLbnSyi4bwjs7KhKNMD0Y6XFZdNHDor6GdKg==
