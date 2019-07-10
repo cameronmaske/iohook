@@ -5,7 +5,7 @@ skip_tags: true
 
 environment:
   my_variable:
-    secure: jNAGFDTjksYoUkNcdF1ZxIMaTNfZWXBBA1RK2COaxdqPfvmXtmuLbnSyi4bwjs7KhKNMD0Y6XFZdNHDor6GdKg==
+    secure: jNAGFDTjksYoUkNcdF1ZxO7D/IFs0QYMa0BZvSICTMRr72y+0vD/nKyQR8k5mhZ81yMrOpZaBhnpkML1mEiGnw==
   matrix:
     - arch: x86_64
       bits: 64
