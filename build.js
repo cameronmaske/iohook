@@ -128,6 +128,7 @@ function tarGz(runtime, abi) {
 
 function uploadFiles (files) {
   const upload = require('prebuild/upload');
+  console.log(files);
   return new Promise(function (resolve, reject) {
     console.log('Uploading ' + files.length + ' prebuilds(s) to Github releases');
     let opts = {
